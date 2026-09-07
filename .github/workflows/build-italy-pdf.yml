@@ -26,3 +26,4 @@ jobs:
           name: italy-trip-pdf
           path: italy_trip_2026.pdf
           if-no-files-found: error
+# trigger PDF artifact build
