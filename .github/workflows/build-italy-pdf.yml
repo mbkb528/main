@@ -4,6 +4,10 @@ on:
     paths:
       - 'italy-trip/build_pdf.py'
       - '.github/workflows/build-italy-pdf.yml'
+  pull_request:
+    paths:
+      - 'italy-trip/build_pdf.py'
+      - '.github/workflows/build-italy-pdf.yml'
   workflow_dispatch:
 permissions:
   contents: read
